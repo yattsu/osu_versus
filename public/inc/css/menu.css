@@ -1,0 +1,48 @@
+.menu_wrapper {
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #FF9CCA;
+
+    border-bottom: 3px solid #f589bc;
+}
+
+.menu_content {
+    display: inline-block;
+
+    vertical-align: middle;
+
+    font-size: 20px;
+}
+
+.menu_title {
+    display: inline-block;
+
+    vertical-align: middle;
+
+    color: #fff;
+
+    font-size: 30px;
+
+    text-shadow: 1px 1px 0px #f589bc;
+}
+
+.menu_button {
+    display: inline-block;
+
+    margin-left: 25px;
+    margin-right: 25px;
+
+    text-shadow: 1px 1px 0px #f589bc;
+}
+
+.menu_link {
+    text-decoration: none;
+
+    color: #fff;
+}
+
+.menu_link:hover {
+    text-decoration: underline;
+}

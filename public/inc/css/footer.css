@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+    color: #3399ff;
+}
+
+.footer_wrapper {
+    background-color: rgba(0, 0, 0, 0.9);
+
+    padding: 50px;
+
+    text-align: center;
+}
+
+.footer_content {
+    color: #fff;
+}
