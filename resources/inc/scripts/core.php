@@ -2,8 +2,8 @@
 #security
 require $_SERVER['DOCUMENT_ROOT'] . '/osu!versus/resources/inc/scripts/page_security.php';
 
+#config
 require_once $_SERVER['DOCUMENT_ROOT'] . '/osu!versus/resources/config.php';
-$api_key = $osu_credentials['api_key'];
 
 class Core
 {
@@ -13,8 +13,7 @@ class Core
 
     public function __construct()
     {
-        global $api_key;
-        $this->api_key = $api_key;
+        $this->api_key = API_KEY;
     }
 
     public function set_username($username)

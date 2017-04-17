@@ -13,6 +13,9 @@
 $on_index = true;
 require $_SERVER['DOCUMENT_ROOT'] . '/osu!versus/resources/inc/scripts/page_security.php';
 
+#update visitor
+require $_SERVER['DOCUMENT_ROOT'] . '/osu!versus/public/inc/scripts/update_visitor.php';
+
 require_once 'inc/menu.php';
 ?>
 <div class="content_wrapper">
