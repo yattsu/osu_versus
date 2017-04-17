@@ -39,14 +39,6 @@ class Database
 		return true;
 	}
 
-	#disconnect from database
-	// public function disconnect()
-	// {
-	// 	if ($this->con) {
-	// 		mysqli_close($con)
-	// 	}
-	// }
-
 	#checking if visitor is new
 	public function is_visitor_new()
 	{
