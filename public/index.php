@@ -28,6 +28,13 @@ require_once 'inc/menu.php';
                     VS
                     <input class="field" type="text" name="user2" autocomplete="off" placeholder="Player 2">
                     <input class="button" type="submit" name="submit" value="click!">
+                    <div class="user_counter">
+                        unique users: 
+                        <?php
+                        #display unique users
+                        require_once $_SERVER['DOCUMENT_ROOT'] . '/osu!versus/public/inc/scripts/user_counter.php';
+                        ?>
+                    </div>
                 </form>
             </div>
         </div>

@@ -76,6 +76,20 @@ class Database
 			$query = mysqli_query($this->con, $sql);
 		}
 	}
+
+	#count unique users
+	public function unique_users()
+	{
+		if (!$this->con) {
+			return false;
+		}
+
+		$sql = 'SELECT * FROM visitors';
+		$query = mysqli_query($this->con, $sql);
+		$unique_users = mysqli_num_rows($query);
+
+		return $unique_users;
+	}
 }
 
 ?>

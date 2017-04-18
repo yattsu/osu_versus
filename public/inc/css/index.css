@@ -238,6 +238,11 @@ body {
     -webkit-animation: wiggle 0.3s;
 }
 
+.user_counter {
+    margin-top: 25px;
+    text-align: left;
+}
+
 .output {
     text-align: center;
 
