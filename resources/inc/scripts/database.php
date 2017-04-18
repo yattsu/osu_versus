@@ -67,8 +67,8 @@ class Database
 		$today_time = date('h:i', time());
 
 		#if visitor already exists in the database
-		if (!$this->is_visitor_new()) {
-			$sql = 'UPDATE visitors SET date = "' . $today_date . '", time = "' . $today_time . '" WHERE ip = "' . $user_ip . '"';
+		if ($this->is_visitor_new() === false) {
+			$sql = 'UPDATE visitors SET today_date = "' . $today_date . '", today_time = "' . $today_time . '" WHERE ip = "' . $user_ip . '"';
 			$query = mysqli_query($this->con, $sql);
 		#if visitor is new
 		} else {
