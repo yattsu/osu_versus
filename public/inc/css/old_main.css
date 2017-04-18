@@ -1,0 +1,8 @@
+@import url('old_index.css');
+@import url('old_footer.css');
+@import url('old_menu.css');
+
+@font-face {
+    font-family: 'Verdana';
+    src: url('../fonts/Verdana.ttf');
+}

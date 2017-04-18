@@ -3,7 +3,9 @@
 
     padding: 20px;
 
-    background-color: #202039;
+    background-color: #FF9CCA;
+
+    border-bottom: 3px solid #f589bc;
 }
 
 .menu_content {
@@ -32,13 +34,13 @@
     margin-left: 25px;
     margin-right: 25px;
 
-    text-shadow: 1px 1px 0px #292941;
+    text-shadow: 1px 1px 0px #f589bc;
 }
 
 .menu_link {
     text-decoration: none;
 
-    color: #a49cb4;
+    color: #fff;
 }
 
 .menu_link:hover {

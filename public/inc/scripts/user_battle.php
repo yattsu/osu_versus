@@ -28,9 +28,9 @@ echo '<div class="user_wrapper">';
     echo '</div>';
     echo '<div class="user_wrapper_bottom">';
         if ($user1->get_points() >= $user2->get_points()) {
-            echo '<div class="user_points" style="background-color: #80ff80">';
+            echo '<div class="user_points" style="background-color: #a49cb4">';
         } else {
-            echo '<div class="user_points" style="background-color: #ff8080">';
+            echo '<div class="user_points" style="background-color: #5a526a">';
         }
             echo number_format($user1->get_points(), 0, '', ',');
         echo '</div>';
@@ -45,9 +45,9 @@ echo '<div class="user_wrapper">';
     echo '</div>';
     echo '<div class="user_wrapper_bottom">';
         if ($user2->get_points() >= $user1->get_points()) {
-            echo '<div class="user_points" style="background-color: #80ff80">';
+            echo '<div class="user_points" style="background-color: #a49cb4">';
         } else {
-            echo '<div class="user_points" style="background-color: #ff8080">';
+            echo '<div class="user_points" style="background-color: #5a526a">';
         }
             echo number_format($user2->get_points(), 0, '', ',');
         echo '</div>';

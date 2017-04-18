@@ -1,10 +1,10 @@
 a {
     text-decoration: none;
-    color: #a49cb4;
+    color: #3399ff;
 }
 
 .footer_wrapper {
-    background-color: #0e0e25;
+    background-color: rgba(0, 0, 0, 0.9);
 
     padding: 50px;
 
@@ -12,5 +12,5 @@ a {
 }
 
 .footer_content {
-    color: #a49cb4;
+    color: #fff;
 }

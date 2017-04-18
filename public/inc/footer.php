@@ -5,7 +5,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/osu!versus/resources/inc/scripts/page_secu
 
 <div class="footer_wrapper">
     <div class="footer_content">
-        Created by <a target="_blank" href="https://osu.ppy.sh/u/ambanane">ambanane</a> -
+        Created by <a target="_blank" href="https://osu.ppy.sh/u/ambanane">Yattsu</a> -
         <a target="_blank" href="https://twitter.com/toma98vlad">Twitter</a> -
         <a target="_blank" href="https://www.reddit.com/user/vt98/">Reddit</a>
 
